@@ -1,10 +1,12 @@
 {
   "name": "web-boilerplate",
   "version": "1.0.0",
-  "description": "Web boilerplate for Node project initialization",
+  "description": "Web boilerplate for MERN backend project initialization",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon server.js",
+    "start" : "node server.js"
   },
   "repository": {
     "type": "git",
